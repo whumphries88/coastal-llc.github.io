@@ -1,0 +1,1 @@
+$(document).ready(function(){ $('.header-yes').load("nav.html"); });
