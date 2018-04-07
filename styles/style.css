@@ -1,13 +1,20 @@
 html {
 	background-color: #008000;
+	margin: 0;
 }
 
 body {
-	width: 600px;
+	/*width: 600px;*/
 	margin: 0 auto;
-	background-color: #FF9500;
-	padding: 0 20px 20px 20px;
+	background-color: #FBFBFB;
+	/*padding: 0 20px 20px 20px;*/
     border: 5px solid black;
+}
+
+header {
+	padding-bottom: 30px;
+	width: 100%;
+	height: auto;
 }
 
 .header img {
@@ -21,6 +28,17 @@ body {
   position: relative;
   top: 18px;
   left: 10px;
+}
+
+nav ul {
+   list-style: none;
+   text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -73,6 +91,47 @@ img {
 	float: right;
 }
 
-header {
-	padding-bottom: 30px;
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
 }
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+	.float-left-area  {
+		  width: 70%;
+		  float: left;
+		  }
+
+.float-right-area {
+		  width: 30%;
+		  float: left;
+		  }
+
+.inner-left	  {
+		  padding: 5px 5px 5px 5px;
+		  margin-right: 10px;
+		  border: #999999 1px solid;
+		  min-height: 60px;
+		  }
+
+.inner-right	  {
+		  font-size: 11px;
+		  padding: 5px 5px 5px 5px;
+		  border: #999999 1px solid;
+		  min-height: 60px;
+		  }
+
+.clear-floated	  { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
