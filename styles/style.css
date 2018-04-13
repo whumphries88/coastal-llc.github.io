@@ -220,3 +220,18 @@ img {vertical-align: middle;}
 }
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
+
+#help_panel {
+  width: 100vw;
+  background-color: orange;
+  max-width: 960px;
+  height: 30vh;
+}
+#help_panel p {
+	margin: 0px;
+}
+
+#footer {
+	background-color: #002800;
+	height: 40vh;
+}
