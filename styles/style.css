@@ -234,4 +234,33 @@ img {vertical-align: middle;}
 #footer {
 	background-color: #002800;
 	height: 40vh;
+	display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+}
+
+#footer div {
+	-webkit-flex:1;
+    flex:1;
+    border:thin solid #777;
+    color: #FBFBFB;
+};
+
+#footer div p {
+	color: #FBFBFB;
+}
+
+#c1 {
+	color: white
+}
+
+.footer-text {
+	color: white;
+}
+
+#spacer {
+	height: 20vh;
+	width: 100vw;
 }
